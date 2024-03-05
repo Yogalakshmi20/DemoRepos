@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Demosuite" time="53.384" tests="1" failures="0" errors="0">
+   <testsuite name="Demosuite" tests="1" failures="0" errors="0" time="53.384" skipped="0" timestamp="05-03-2024T11:34:51" hostname="yogalakshmi.k - Laptop-US-03.optisolbusiness.com" id="Test Suites/Demosuite">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\Users\\Yogalakshmi.k\\git\\DemoRepos\\Reports\\20240305_113427\\Demosuite\\20240305_113427"/>
+         <property name="logFiles" value="C:\\Users\\Yogalakshmi.k\\git\\DemoRepos\\Reports\\20240305_113427\\Demosuite\\20240305_113427\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="yogalakshmi.k - Laptop-US-03.optisolbusiness.com"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{&#xa;  &quot;timeouts&quot;: {&#xa;    &quot;implicit&quot;: 0,&#xa;    &quot;pageLoad&quot;: 300000,&#xa;    &quot;script&quot;: 30000&#xa;  },&#xa;  &quot;platform&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;goog:chromeOptions&quot;: {&#xa;    &quot;debuggerAddress&quot;: &quot;localhost:9225&quot;&#xa;  },&#xa;  &quot;requestId&quot;: &quot;d0e4a03a-eae3-421f-b1de-56cf1d07c2b8&quot;,&#xa;  &quot;webauthn:extension:credBlob&quot;: true,&#xa;  &quot;acceptInsecureCerts&quot;: false,&#xa;  &quot;browserVersion&quot;: &quot;121.0.0.0&quot;,&#xa;  &quot;fedcm:accounts&quot;: true,&#xa;  &quot;browserName&quot;: &quot;chrome&quot;,&#xa;  &quot;javascriptEnabled&quot;: true,&#xa;  &quot;katalon:option&quot;: {&#xa;    &quot;unlimitedExecutionMinutes&quot;: true,&#xa;    &quot;userId&quot;: 1458118,&#xa;    &quot;organizationId&quot;: &quot;1419220&quot;,&#xa;    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,&#xa;    &quot;runFromTestCloud&quot;: true,&#xa;    &quot;usingTunnel&quot;: false&#xa;  },&#xa;  &quot;platformName&quot;: &quot;WINDOWS&quot;,&#xa;  &quot;setWindowRect&quot;: true,&#xa;  &quot;webauthn:extension:largeBlob&quot;: true,&#xa;  &quot;networkConnectionEnabled&quot;: false,&#xa;  &quot;chrome&quot;: {&#xa;    &quot;chromedriverVersion&quot;: &quot;121.0.6167.8 (4aa41a0c90a47035445354a3512460995acfedc1-refs/branch-heads/6167@{#52})&quot;,&#xa;    &quot;userDataDir&quot;: &quot;C:\\Windows\\SystemTemp\\scoped_dir8604_1426097845&quot;&#xa;  },&#xa;  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,&#xa;  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,&#xa;  &quot;strictFileInteractability&quot;: false,&#xa;  &quot;***:loadExtension&quot;: [&#xa;    &quot;https://prod-magicleap-user-files-us-east-1-v1.s3.amazonaws.com/extensions/orgId-691279/SmartWait.zip&quot;&#xa;  ],&#xa;  &quot;version&quot;: &quot;121&quot;,&#xa;  &quot;se:cdp&quot;: &quot;ws://172.48.62.105:4444/session/444604516c67fee53322d0b8da5eb641/se/cdp&quot;,&#xa;  &quot;proxy&quot;: {&#xa;    &quot;proxyType&quot;: &quot;UNSPECIFIED&quot;,&#xa;    &quot;autodetect&quot;: false&#xa;  },&#xa;  &quot;webauthn:extension:minPinLength&quot;: true,&#xa;  &quot;webauthn:extension:prf&quot;: true,&#xa;  &quot;webauthn:virtualAuthenticators&quot;: true&#xa;}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.123"/>
+         <property name="sessionId" value="444604516c67fee53322d0b8da5eb641"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Demo1" time="53.04" classname="Test Cases/Demo1" status="PASSED">
+         <system-out><![CDATA[05-03-2024T11:34:52 - [TEST_CASE][PASSED] - Test Cases/Demo1: Test Cases/Demo1
+
+05-03-2024T11:34:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-03-2024T11:34:53 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+05-03-2024T11:34:53 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+05-03-2024T11:34:53 - [MESSAGE][INFO] - User set preference: ['browserVersion', '121']
+
+05-03-2024T11:34:53 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1419220, tunnelId=, usingTunnel=false}']
+
+05-03-2024T11:34:53 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+05-03-2024T11:34:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-03-2024T11:35:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-03-2024T11:35:27 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/"): Navigate to 'https://www.google.com/' successfully
+
+05-03-2024T11:35:29 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/' successfully
+
+05-03-2024T11:35:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Google/a_Sign in")): Object: 'Object Repository/Page_Google/a_Sign in' is clicked on
+
+05-03-2024T11:35:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Google/a_Sign in' is clicked on
+
+05-03-2024T11:35:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign in - Google Accounts/input_Use your Google Account_identifier"), "aarthi200398"): Text 'aarthi200398' is set on object 'Object Repository/Page_Sign in - Google Accounts/input_Use your Google Account_identifier'
+
+05-03-2024T11:35:41 - [MESSAGE][PASSED] - Text 'aarthi200398' is set on object 'Object Repository/Page_Sign in - Google Accounts/input_Use your Google Account_identifier'
+
+05-03-2024T11:35:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Sign in - Google Accounts/input_Use your Google Account_identifier"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign in - Google Accounts/input_Use your Google Account_identifier'
+
+05-03-2024T11:35:45 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign in - Google Accounts/input_Use your Google Account_identifier']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-03-2024T11:34:51 - [TEST_SUITE][PASSED] - Demosuite: Test Cases/Demo1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

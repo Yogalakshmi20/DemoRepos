@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Demosuite,Windows - Chrome 121.0.0.0,,,05-03-2024 11:34:51,05-03-2024 11:35:45,53.384s,PASSED
+,,,,,,,
+Test Cases/Demo1,Windows - Chrome 121.0.0.0,,,05-03-2024 11:34:52,05-03-2024 11:35:45,53.040s,PASSED
+"openBrowser("""")",Windows - Chrome 121.0.0.0,,,05-03-2024 11:34:52,05-03-2024 11:35:27,34.165s,PASSED
+"navigateToUrl(""https://www.google.com/"")",Windows - Chrome 121.0.0.0,,,05-03-2024 11:35:27,05-03-2024 11:35:29,2.135s,PASSED
+"click(findTestObject(""Object Repository/Page_Google/a_Sign in""))",Windows - Chrome 121.0.0.0,,,05-03-2024 11:35:29,05-03-2024 11:35:34,5.154s,PASSED
+"setText(findTestObject(""Object Repository/Page_Sign in - Google Accounts/input_Use your Google Account_identifier""), ""aarthi200398"")",Windows - Chrome 121.0.0.0,,,05-03-2024 11:35:34,05-03-2024 11:35:41,7.197s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Sign in - Google Accounts/input_Use your Google Account_identifier""), Keys.chord(ENTER))",Windows - Chrome 121.0.0.0,,,05-03-2024 11:35:41,05-03-2024 11:35:45,3.755s,PASSED
