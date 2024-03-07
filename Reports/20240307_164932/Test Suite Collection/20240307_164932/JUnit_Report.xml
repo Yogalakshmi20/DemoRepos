@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Collection" time="44.239" tests="1" failures="0" errors="0">
+   <testsuite name="Demosuite" tests="1" failures="0" errors="0" time="17.018" skipped="0" timestamp="07-03-2024T16:50:00" hostname="yogalakshmi.k - Laptop-US-03.optisolbusiness.com" id="Test Suites/Demosuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Yogalakshmi.k\\git\\DemoRepos\\Reports\\20240307_164932\\Demosuite\\20240307_164935"/>
+         <property name="logFiles" value="C:\\Users\\Yogalakshmi.k\\git\\DemoRepos\\Reports\\20240307_164932\\Demosuite\\20240307_164935\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="yogalakshmi.k - Laptop-US-03.optisolbusiness.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.105"/>
+         <property name="sessionId" value="1fc7ee15228f085cd70927b8ec8b2e5c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Demo1" time="16.604" classname="Test Cases/Demo1" status="PASSED">
+         <system-out><![CDATA[07-03-2024T16:50:01 - [TEST_CASE][PASSED] - Test Cases/Demo1: Test Cases/Demo1
+
+07-03-2024T16:50:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+07-03-2024T16:50:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-03-2024T16:50:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-03-2024T16:50:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+07-03-2024T16:50:09 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/"): Navigate to 'https://www.google.com/' successfully
+
+07-03-2024T16:50:13 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/' successfully
+
+07-03-2024T16:50:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Google/a_Sign in")): Object: 'Object Repository/Page_Google/a_Sign in' is clicked on
+
+07-03-2024T16:50:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Google/a_Sign in' is clicked on
+
+07-03-2024T16:50:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Sign in - Google Accounts/input_Use your Google Account_identifier"), "aarthi200398"): Text 'aarthi200398' is set on object 'Object Repository/Page_Sign in - Google Accounts/input_Use your Google Account_identifier'
+
+07-03-2024T16:50:16 - [MESSAGE][PASSED] - Text 'aarthi200398' is set on object 'Object Repository/Page_Sign in - Google Accounts/input_Use your Google Account_identifier'
+
+07-03-2024T16:50:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Sign in - Google Accounts/input_Use your Google Account_identifier"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign in - Google Accounts/input_Use your Google Account_identifier'
+
+07-03-2024T16:50:17 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Sign in - Google Accounts/input_Use your Google Account_identifier']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[07-03-2024T16:50:00 - [TEST_SUITE][PASSED] - Demosuite: Test Cases/Demo1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
